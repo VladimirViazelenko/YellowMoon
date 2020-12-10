@@ -1,0 +1,70 @@
+/*
+@media(min-width: 320px){
+    body {
+        background: #0f9;
+
+    }
+}
+@media(min-width: 770px){
+    body {
+        background: #f049;
+
+    }
+}
+@media(min-width: 990px){
+    body {
+        background: #f809;
+
+    }
+}
+*/
+@media(max-width: 1190px){
+    body,
+    .nav,
+    .about-us,
+    .intro,
+    .portfolio,
+    .clients,
+    .registration-form,
+    .footer-info,
+    .info,
+    .contact-us,
+    .submit-btn {
+        min-width: 100%;
+        width: 100%;
+    }
+}
+@media(max-width: 768px){
+    .nav{
+        display: none;
+    }
+}
+@media(max-width: 930px){
+    .nav{
+        display: none;
+    }
+    .data{
+        flex-wrap: wrap;
+    }
+    .data li{
+        width: 50px;
+    }
+    .data li p{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media(max-width: 640px){
+    data li{
+        width: 100%;
+    }
+    .data h3{
+        margin-bottom: 14px;
+    
+    }
+    .portfolio li{
+        width: 80%;
+        height: 100%;
+    }
+}
